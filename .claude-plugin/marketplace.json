@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "sf-browser-control",
-      "source": "..",
+      "source": {
+        "source": "github",
+        "repo": "ehartye/sf-browser-control"
+      },
       "description": "Salesforce browser automation via SF CLI authentication",
       "version": "1.0.0",
       "author": {
