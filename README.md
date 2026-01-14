@@ -16,12 +16,16 @@ A Claude Code plugin providing browser automation for Salesforce orgs authentica
 ### As a Claude Code Plugin (Recommended)
 
 ```bash
-/plugin install ehartye/sf-browser-control
+# Add the marketplace (one-time)
+/plugin marketplace add ehartye/hartye-claude-plugins
+
+# Install the plugin
+/plugin install sf-browser-control@hartye-plugins
 ```
 
 ### Prerequisites
 
-After installation, ensure you have:
+Before using the plugin, ensure you have:
 - SF CLI installed and authenticated with at least one org (`sf org login web -a myalias`)
 - Playwright browsers installed (`npx playwright install chromium`)
 
