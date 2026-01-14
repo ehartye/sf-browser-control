@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local configuration
+.claude/settings.local.json
+.env
+.env.local
+
+# Debug and temp files
+*.png
+*.jpg
+*.jpeg
+*.gif
+debug-*.ts
+test-*.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Package manager locks (keep package-lock.json)
+yarn.lock
+pnpm-lock.yaml

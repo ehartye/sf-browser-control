@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sf-browser-control": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "sf-browser-control",
+  "version": "1.0.0",
+  "description": "Salesforce browser automation via SF CLI authentication - control browser sessions, navigate Lightning pages, fill forms, and manage records",
+  "author": {
+    "name": "ehartye",
+    "url": "https://github.com/ehartye"
+  },
+  "repository": "https://github.com/ehartye/sf-browser-control",
+  "license": "MIT",
+  "keywords": [
+    "salesforce",
+    "browser-automation",
+    "playwright",
+    "mcp",
+    "lightning"
+  ],
+  "commands": "./commands/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
